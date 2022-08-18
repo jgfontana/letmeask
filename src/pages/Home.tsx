@@ -7,7 +7,7 @@ import googleIconImg from '../assets/images/google-icon.svg'
 import { Button } from '../components/Button';
 
 import '../styles/auth.scss'
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { AuthContext } from '../App';
 
 export function Home() {
